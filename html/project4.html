@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gyaan | Gallery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/images.css">
+
+</head>
+<body>
+    <div class="container-top">
+        <h1 class="heading1 has-text-centered">PROJECT GYAAN</h1>
+    </div>
+
+    <!-- Images used to open the lightbox -->
+    <div class="row">
+            <div id="set1" class="column">
+            <img src="../img/4/IMG-20210612-WA0031.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div id="set2" class="column">
+            <img src="../img/4/IMG-20210612-WA0032.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div id="set3" class="column">
+            <img src="../img/4/IMG-20210612-WA0033.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div id="set4" class="column">
+            <img src="../img/4/IMG-20210612-WA0034.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div id="set5" class="column">
+            <img src="../img/4/IMG-20210612-WA0036.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div id="set6" class="column">
+            <img src="../img/4/IMG-20210612-WA0038.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div id="set7" class="column">
+            <img src="../img/4/IMG-20210612-WA0039.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div id="set8" class="column">
+            <img src="../img/4/IMG-20210612-WA0040.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+            <div id="set9" class="column">
+            <img src="../img/4/IMG-20210612-WA0042.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+            </div>
+            <div id="set10" class="column">
+            <img src="../img/4/IMG-20210612-WA0044.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+            </div>
+            <div id="set11" class="column">
+            <img src="../img/4/IMG-20210612-WA0045.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+            </div>
+            <div id="set12" class="column">
+            <img src="../img/4/IMG-20210612-WA0047.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+            </div>
+            <div id="set13" class="column">
+            <img src="../img/4/IMG-20210612-WA0049.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+            </div>
+            <div id="set14" class="column">
+            <img src="../img/4/IMG-20210612-WA0051.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+            </div>
+            <div id="set15" class="column">
+            <img src="../img/4/IMG-20210612-WA0052.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+            </div>
+            <div id="set16" class="column">
+            <img src="../img/4/IMG-20210612-WA0053.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+            </div>
+    </div>
+    
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content" style="width:80%;">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0031.jpg" style="width:100%;height:500px;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">2 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0032.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">3 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0033.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">4 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0034.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0036.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">6 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0038.jpg" style="width:100%;height:500px;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">7 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0039.jpg" style="width:100%;height:500px;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">8 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0040.jpg" style="width:100%;height:500px;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0042.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">10 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0044.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">11 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0045.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">12 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0047.jpg" style="width:100%;height:500px;">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">13 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0049.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">14 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0051.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">15 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0052.jpg" style="width:100%;height:500px;padding-left:20%;padding-right:20%;">
+            </div>
+        
+            <div class="mySlides">
+                <div class="numbertext">16 / 30</div>
+                <img src="../img/4/IMG-20210612-WA0053.jpg" style="width:100%;height:500px;">
+            </div>
+    
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+        <!-- Caption text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+    
+        <!-- Thumbnail image controls -->
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0031.jpg" onclick="currentSlide(1)" alt="1">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0032.jpg" onclick="currentSlide(2)" alt="2">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0033.jpg" onclick="currentSlide(3)" alt="3">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0034.jpg" onclick="currentSlide(4)" alt="4">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0036.jpg" onclick="currentSlide(5)" alt="5">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0038.jpg" onclick="currentSlide(6)" alt="6">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0039.jpg" onclick="currentSlide(7)" alt="7">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0040.jpg" onclick="currentSlide(8)" alt="8">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0042.jpg" onclick="currentSlide(9)" alt="9">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0044.jpg" onclick="currentSlide(10)" alt="10">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0045.jpg" onclick="currentSlide(11)" alt="11">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0047.jpg" onclick="currentSlide(12)" alt="12">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0049.jpg" onclick="currentSlide(13)" alt="13">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0051.jpg" onclick="currentSlide(14)" alt="14">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0052.jpg" onclick="currentSlide(15)" alt="15">
+        </div>
+        <div class="column">
+            <img class="demo" src="../img/4/IMG-20210612-WA0053.jpg" onclick="currentSlide(16)" alt="16">
+        </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Open the Modal
+        function openModal() {
+        document.getElementById("myModal").style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+    </script>
+</body>
+</html>
